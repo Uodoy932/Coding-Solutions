@@ -4,18 +4,25 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) {
-    
-        Scanner scanner = new Scanner (System.in);
+      
+     Scanner sc = new Scanner(System.in);
+     
+     
+      System.out.println("================================");
+      
+      for(int i=0;i<3;i++)
+      {
+        String s = sc.next();
+        int n = sc.nextInt();
+   
+        System.out.printf("%-15s%03d\n",s,n);
         
-        int i= scanner.nextInt();
-        double j= scanner.nextDouble();
-        String l = scanner.nextLine();
-        String k= scanner.nextLine();
-        scanner.close();
-        
-        System.out.println("String: "+k);
-         System.out.println("Double: "+j);
-          System.out.println("Int: "+i);
-
+      }
+      
+      System.out.println("================================");
+      
+      
+      
+      sc.close();
     }
 }
