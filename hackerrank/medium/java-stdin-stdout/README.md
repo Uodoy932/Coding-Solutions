@@ -37,7 +37,7 @@ To make the problem easier, a portion of the code is already provided in the edi
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-29T07:02:44.423Z  
+**Submitted:** 2026-09-30T05:05:02.710Z  
 
 ```java
 import java.io.*;
