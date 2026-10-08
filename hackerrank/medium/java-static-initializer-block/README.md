@@ -53,7 +53,7 @@ If both values are greater than zero, then the *main* method must output the are
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T15:51:08.295Z  
+**Submitted:** 2026-10-08T15:52:13.752Z  
 
 ```java
 import java.io.*;
