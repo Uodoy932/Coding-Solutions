@@ -1,4 +1,4 @@
-# Java Abstract Class
+# Java Interface
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -27,25 +27,31 @@ Read the partially completed code in the editor and complete it. You just need t
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-11T03:59:42.610Z  
+**Submitted:** 2026-10-12T05:24:03.428Z  
 
 ```java
 
 
-class MyBook extends Book {
+class MyCalculator implements AdvancedArithmetic{
+    
+    public int divisor_sum(int n){
+        
+        int sum=0;
+        
+        for(int i=1;i<=n;i++){
+            
+            if(n%i==0)
+            {
+                sum+=i;
+            }
+            
+        }    
+        
+        return sum;
+    }
 
-    
-    public MyBook() {
-        super(); 
-    }
-    
-    @Override
-    public void setTitle(String t) {
-        this.title = t;
-    }
 }
-
-
+    
 
 
 ```
