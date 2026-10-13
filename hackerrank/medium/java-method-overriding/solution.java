@@ -1,23 +1,8 @@
 
 
-class MyCalculator implements AdvancedArithmetic{
-    
-    public int divisor_sum(int n){
-        
-        int sum=0;
-        
-        for(int i=1;i<=n;i++){
-            
-            if(n%i==0)
-            {
-                sum+=i;
-            }
-            
-        }    
-        
-        return sum;
+    // Write your overridden getNumberOfTeamMembers method here
+    @Override
+    void getNumberOfTeamMembers(){
+        System.out.println( "Each team has 11 players in " + getName() );
     }
-
-}
-    
 
