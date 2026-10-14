@@ -1,4 +1,4 @@
-# Java Method Overriding
+# Java Method Overriding 2 (Super Keyword)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -27,17 +27,20 @@ You are given a partially completed code in the editor. Modify the code so that 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-13T04:38:06.153Z  
+**Submitted:** 2026-10-14T04:37:06.302Z  
 
 ```java
+import java.io.*;
+import java.util.*;
 
+public class Solution {
 
-    // Write your overridden getNumberOfTeamMembers method here
-    @Override
-    void getNumberOfTeamMembers(){
-        System.out.println( "Each team has 11 players in " + getName() );
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        System.out.println("Hello I am a motorcycle, I am a cycle with an engine.");
+        System.out.println("My ancestor is a cycle who is a vehicle with pedals.");
     }
-
+}
 
 ```
 
