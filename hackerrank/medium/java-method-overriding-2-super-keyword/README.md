@@ -27,7 +27,7 @@ You are given a partially completed code in the editor. Modify the code so that 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T04:37:06.302Z  
+**Submitted:** 2026-10-15T12:17:56.696Z  
 
 ```java
 import java.io.*;
