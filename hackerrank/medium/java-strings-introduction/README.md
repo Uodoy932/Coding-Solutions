@@ -41,7 +41,7 @@ For the third line, capitalize the first letter in both $A$ and $B$ and print th
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-16T14:53:01.821Z  
+**Submitted:** 2026-10-16T14:53:32.880Z  
 
 ```java
 import java.io.*;
