@@ -1,0 +1,37 @@
+# Java Iterator
+
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
+
+## Problem
+
+You are given a class *Solution* and an inner class *Inner.Private*. The main method of class *Solution* takes an integer $num$ as input. The *powerof2* in class *Inner.Private* checks whether a number is a power of $2$. You have to call the method *powerof2* of the class *Inner.Private* from the *main* method of the class *Solution*.
+
+**Constraints**   
+$ 1 \le num \le 2^{30}$
+
+**Input Format**
+
+ 
+
+**Output Format**
+
+## Solution
+
+**Language:** Java  
+**Runtime:** N/A  
+**Memory:** N/A  
+**Submitted:** 2026-10-25T10:58:12.465Z  
+
+```java
+
+         
+         Object element = it.next();
+         if (element instanceof String) // Hints: use instanceof operator
+        
+
+
+```
+
+---
+
+[View on HackerRank](https://www.hackerrank.com/challenges/can-you-access/problem)
